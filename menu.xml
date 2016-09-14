@@ -1,0 +1,58 @@
+<menu>
+    <menuitem label='Cadastros'>
+    
+        <menu>
+                  
+                    <menuitem label='Pessoas'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>CadpessoasForm</action>
+                    </menuitem>
+                    <menuitem label='Agentes Qualificadores'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>AgenteQualificadorForm</action>
+                    </menuitem>
+                      <menuitem label='Cursos'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>CursosForm</action>
+                    </menuitem>
+                     <menuitem label='Turmas'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>TurmasForm</action>
+                    </menuitem>
+                     <menuitem label='Inscrição'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>MatriculasForm</action>
+                    </menuitem>
+            
+        </menu>
+    </menuitem>
+     <menuitem label='Listas'>
+    
+        <menu>
+            <menuitem label='Cadastros'>
+                <menu>
+                    <menuitem label='Pessoas'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>CadpessoasFormListView</action>
+                    </menuitem>
+                    <menuitem label='Agentes Qualificadores'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>AgenteQualificadorList</action>
+                    </menuitem>
+                    <menuitem label='Cursos'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>CursosListView</action>
+                    </menuitem>
+                    <menuitem label='Turmas'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>TurmasListView</action>
+                    </menuitem>
+                    <menuitem label='Inscrição'>
+                        <icon>app/images/ico_wellcome.png</icon>
+                        <action>MatriculasFormList</action>
+                    </menuitem>
+                </menu>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>

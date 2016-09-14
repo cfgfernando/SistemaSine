@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <tnotebook id="0">
+        <class>TNotebook</class>
+        <name>notebook1</name>
+        <x>425</x>
+        <y>-10</y>
+        <width>797</width>
+        <height>926</height>
+        <pages>
+            <tpanel id="1" tab="Cadastro">
+                <tframe id="0">
+                    <class>TFrame</class>
+                    <name>frame10</name>
+                    <title>Dados Pessoais</title>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>777</width>
+                    <height>206</height>
+                    <child>
+                        <tpanel>
+                            <tlabel id="0">
+                                <class>TLabel</class>
+                                <name>label23</name>
+                                <x>10</x>
+                                <y>15</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Nome:</value>
+                            </tlabel>
+                            <tentry id="1">
+                                <class>TEntry</class>
+                                <name>nome</name>
+                                <x>56</x>
+                                <y>13</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>440</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tcombo id="2">
+                                <class>TCombo</class>
+                                <name>sexo</name>
+                                <items>M:Masculino
+F:Feminino</items>
+                                <x>542</x>
+                                <y>10</y>
+                                <width>165</width>
+                                <tip></tip>
+                            </tcombo>
+                            <tlabel id="3">
+                                <class>TLabel</class>
+                                <name>label24</name>
+                                <x>504</x>
+                                <y>16</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Sexo:</value>
+                            </tlabel>
+                            <tlabel id="4">
+                                <class>TLabel</class>
+                                <name>label25</name>
+                                <x>7</x>
+                                <y>100</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>CPF:</value>
+                            </tlabel>
+                            <tentry id="5">
+                                <class>TEntry</class>
+                                <name>cpf</name>
+                                <x>35</x>
+                                <y>95</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>125</width>
+                                <maxlen>11</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tdate id="6">
+                                <class>TDate</class>
+                                <name>data_nascimento</name>
+                                <x>554</x>
+                                <y>55</y>
+                                <value></value>
+                                <mask>dd-mm-yyyy</mask>
+                                <width>131</width>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tdate>
+                            <tlabel id="7">
+                                <class>TLabel</class>
+                                <name>label26</name>
+                                <x>464</x>
+                                <y>60</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Data de Nasc.:</value>
+                            </tlabel>
+                            <tlabel id="8">
+                                <class>TLabel</class>
+                                <name>label27</name>
+                                <x>10</x>
+                                <y>60</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Local de Nasc.:</value>
+                            </tlabel>
+                            <tentry id="9">
+                                <class>TEntry</class>
+                                <name>local_nasc</name>
+                                <x>104</x>
+                                <y>55</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>358</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="10">
+                                <class>TLabel</class>
+                                <name>label28</name>
+                                <x>7</x>
+                                <y>139</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>RG:</value>
+                            </tlabel>
+                            <tentry id="11">
+                                <class>TEntry</class>
+                                <name>rg</name>
+                                <x>35</x>
+                                <y>135</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>115</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="12">
+                                <class>TLabel</class>
+                                <name>label29</name>
+                                <x>155</x>
+                                <y>139</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Orgão Emissor:</value>
+                            </tlabel>
+                            <tentry id="13">
+                                <class>TEntry</class>
+                                <name>rg_orgEmissor</name>
+                                <x>250</x>
+                                <y>135</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>77</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="14">
+                                <class>TLabel</class>
+                                <name>label30</name>
+                                <x>335</x>
+                                <y>139</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Data de Expedição:</value>
+                            </tlabel>
+                            <tdate id="15">
+                                <class>TDate</class>
+                                <name>rg_data</name>
+                                <x>450</x>
+                                <y>135</y>
+                                <value></value>
+                                <mask>yyyy-dd-mm</mask>
+                                <width>122</width>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tdate>
+                            <tlabel id="16">
+                                <class>TLabel</class>
+                                <name>label46</name>
+                                <x>165</x>
+                                <y>100</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Estado Civil:</value>
+                            </tlabel>
+                            <tcombo id="17">
+                                <class>TCombo</class>
+                                <name>combo3</name>
+                                <items>S:Solteiro(a)
+C:Casado(a)
+SP:Separado(a)
+V:Viúvo(a)
+O:Outros</items>
+                                <x>245</x>
+                                <y>95</y>
+                                <width>187</width>
+                                <tip></tip>
+                            </tcombo>
+                        </tpanel>
+                    </child>
+                </tframe>
+                <tframe id="1">
+                    <class>TFrame</class>
+                    <name>frame11</name>
+                    <title>Filiação</title>
+                    <x>10</x>
+                    <y>235</y>
+                    <width>777</width>
+                    <height>67</height>
+                    <child>
+                        <tpanel>
+                            <tlabel id="0">
+                                <class>TLabel</class>
+                                <name>label31</name>
+                                <x>5</x>
+                                <y>13</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Pai:</value>
+                            </tlabel>
+                            <tentry id="1">
+                                <class>TEntry</class>
+                                <name>pai</name>
+                                <x>30</x>
+                                <y>10</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>322</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="2">
+                                <class>TLabel</class>
+                                <name>label32</name>
+                                <x>355</x>
+                                <y>15</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Mãe:</value>
+                            </tlabel>
+                            <tentry id="3">
+                                <class>TEntry</class>
+                                <name>mae</name>
+                                <x>387</x>
+                                <y>9</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>362</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                        </tpanel>
+                    </child>
+                </tframe>
+                <tframe id="2">
+                    <class>TFrame</class>
+                    <name>frame12</name>
+                    <title>Endereço</title>
+                    <x>10</x>
+                    <y>315</y>
+                    <width>777</width>
+                    <height>102</height>
+                    <child>
+                        <tpanel>
+                            <tlabel id="0">
+                                <class>TLabel</class>
+                                <name>label33</name>
+                                <x>139</x>
+                                <y>13</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Endereço:</value>
+                            </tlabel>
+                            <tentry id="1">
+                                <class>TEntry</class>
+                                <name>endereco</name>
+                                <x>202</x>
+                                <y>10</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>412</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="2">
+                                <class>TLabel</class>
+                                <name>label34</name>
+                                <x>7</x>
+                                <y>12</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>CEP:</value>
+                            </tlabel>
+                            <tentry id="3">
+                                <class>TEntry</class>
+                                <name>cep</name>
+                                <x>42</x>
+                                <y>10</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>93</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="4">
+                                <class>TLabel</class>
+                                <name>label35</name>
+                                <x>618</x>
+                                <y>13</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Número:</value>
+                            </tlabel>
+                            <tentry id="5">
+                                <class>TEntry</class>
+                                <name>numero</name>
+                                <x>678</x>
+                                <y>10</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>85</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="6">
+                                <class>TLabel</class>
+                                <name>label36</name>
+                                <x>7</x>
+                                <y>50</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Bairro:</value>
+                            </tlabel>
+                            <tentry id="7">
+                                <class>TEntry</class>
+                                <name>bairro</name>
+                                <x>50</x>
+                                <y>47</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>160</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="8">
+                                <class>TLabel</class>
+                                <name>label37</name>
+                                <x>215</x>
+                                <y>50</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Cidade:</value>
+                            </tlabel>
+                            <tentry id="9">
+                                <class>TEntry</class>
+                                <name>cidade</name>
+                                <x>260</x>
+                                <y>50</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>215</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                        </tpanel>
+                    </child>
+                </tframe>
+                <tframe id="3">
+                    <class>TFrame</class>
+                    <name>frame13</name>
+                    <title>Contato</title>
+                    <x>10</x>
+                    <y>430</y>
+                    <width>777</width>
+                    <height>112</height>
+                    <child>
+                        <tpanel>
+                            <tlabel id="0">
+                                <class>TLabel</class>
+                                <name>label38</name>
+                                <x>10</x>
+                                <y>13</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Telefone:</value>
+                            </tlabel>
+                            <tentry id="1">
+                                <class>TEntry</class>
+                                <name>fone</name>
+                                <x>74</x>
+                                <y>10</y>
+                                <value></value>
+                                <mask>(xx)xxxx-xxxx</mask>
+                                <width>160</width>
+                                <maxlen>15</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="2">
+                                <class>TLabel</class>
+                                <name>label39</name>
+                                <x>241</x>
+                                <y>12</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Celular:</value>
+                            </tlabel>
+                            <tentry id="3">
+                                <class>TEntry</class>
+                                <name>celular</name>
+                                <x>290</x>
+                                <y>10</y>
+                                <value></value>
+                                <mask>(xx)xxxx-xxxx</mask>
+                                <width>160</width>
+                                <maxlen>15</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                            <tlabel id="4">
+                                <class>TLabel</class>
+                                <name>label40</name>
+                                <x>10</x>
+                                <y>55</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>E-mail:</value>
+                            </tlabel>
+                            <tentry id="5">
+                                <class>TEntry</class>
+                                <name>email</name>
+                                <x>56</x>
+                                <y>53</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>386</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                        </tpanel>
+                    </child>
+                </tframe>
+                <tframe id="4">
+                    <class>TFrame</class>
+                    <name>frame14</name>
+                    <title>Portador de Necessidades Especiais?</title>
+                    <x>10</x>
+                    <y>550</y>
+                    <width>777</width>
+                    <height>114</height>
+                    <child>
+                        <tpanel>
+                            <tradiogroup id="0">
+                                <class>TRadioGroup</class>
+                                <name>pcd</name>
+                                <items>SIM: Sim
+NAO: Não</items>
+                                <x>10</x>
+                                <y>20</y>
+                                <tip></tip>
+                                <value>SIM</value>
+                            </tradiogroup>
+                            <tlabel id="1">
+                                <class>TLabel</class>
+                                <name>label41</name>
+                                <x>74</x>
+                                <y>30</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Qual ?</value>
+                            </tlabel>
+                            <tentry id="2">
+                                <class>TEntry</class>
+                                <name>qual_pcd</name>
+                                <x>116</x>
+                                <y>26</y>
+                                <value></value>
+                                <mask></mask>
+                                <width>611</width>
+                                <maxlen>0</maxlen>
+                                <editable>1</editable>
+                                <tip></tip>
+                                <required></required>
+                            </tentry>
+                        </tpanel>
+                    </child>
+                </tframe>
+                <tbutton id="5">
+                    <class>TButton</class>
+                    <name>Salvar</name>
+                    <x>305</x>
+                    <y>800</y>
+                    <value>Salvar</value>
+                    <icon>ico_save.png</icon>
+                    <action>onSave</action>
+                    <template>save.php</template>
+                </tbutton>
+                <tbutton id="6">
+                    <class>TButton</class>
+                    <name>Limpar</name>
+                    <x>390</x>
+                    <y>800</y>
+                    <value>Limpar</value>
+                    <icon>ico_no.png</icon>
+                    <action>onReload</action>
+                    <template>reload.php</template>
+                </tbutton>
+                <tframe id="7">
+                    <class>TFrame</class>
+                    <name>frame6</name>
+                    <title>Escolaridade</title>
+                    <x>10</x>
+                    <y>660</y>
+                    <width>777</width>
+                    <height>86</height>
+                    <child>
+                        <tpanel>
+                            <tlabel id="0">
+                                <class>TLabel</class>
+                                <name>label21</name>
+                                <x>10</x>
+                                <y>15</y>
+                                <color>#000000</color>
+                                <size>10</size>
+                                <style></style>
+                                <value>Escolaridade:</value>
+                            </tlabel>
+                            <tcombo id="1">
+                                <class>TCombo</class>
+                                <name>escolaridade</name>
+                                <items>Primeiro Grau Incompleto: Primeiro Grau Incompleto
+Primeiro Grau Completo: Primeiro Grau Completo
+Segundo Grau Incompleto: Segundo Grau Incompleto
+Segundo Grau Completo: Segundo Grau Completo
+Superior Incompleto: Superior Incompleto
+Superior Completo: Superior Completo
+Especialização: Especialização
+Mestrado: Mestrado
+Doutorado: Doutorado</items>
+                                <x>93</x>
+                                <y>10</y>
+                                <width>205</width>
+                                <tip></tip>
+                            </tcombo>
+                        </tpanel>
+                    </child>
+                </tframe>
+                <tbutton id="8">
+                    <class>TButton</class>
+                    <name>button3</name>
+                    <x>470</x>
+                    <y>800</y>
+                    <value>Editar</value>
+                    <icon>ico_edit.png</icon>
+                    <action>onEdit</action>
+                    <template>edit.php</template>
+                </tbutton>
+                <tentry id="9">
+                    <class>TEntry</class>
+                    <name>id</name>
+                    <x>5</x>
+                    <y>850</y>
+                    <value></value>
+                    <mask></mask>
+                    <width>10</width>
+                    <maxlen>0</maxlen>
+                    <editable>0</editable>
+                    <tip></tip>
+                    <required></required>
+                </tentry>
+            </tpanel>
+        </pages>
+    </tnotebook>
+</form>
