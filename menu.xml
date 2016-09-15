@@ -49,7 +49,7 @@
                     </menuitem>
                     <menuitem label='Inscrição'>
                         <icon>app/images/ico_wellcome.png</icon>
-                        <action>MatriculasFormList</action>
+                        <action>MatriculasListGridView</action>
                     </menuitem>
                 </menu>
             </menuitem>

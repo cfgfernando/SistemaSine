@@ -37,6 +37,20 @@ class MatriculasForm extends TPage
         $turmas_id = new TDBCombo('turmas_id', 'sistemaSine', 'Turmas', 'id', 'nome_turma');
         $cadPessoas_id = new TDBCombo('cadPessoas_id', 'sistemaSine', 'Cadpessoas', 'id', 'nome');
         $cadPessoas_cpf = new TDBCombo('cadPessoas_cpf', 'sistemaSine', 'Cadpessoas', 'id', 'cpf');
+        $status = new TCombo ('status');
+        
+        
+        
+        
+        //combo campo status
+        $combo_status = array();
+        $combo_status['AGUARDANDO CONFIRMACAO'] = 'Aguardando Confirmação';
+        $combo_status['MATRICULADO'] ='Matriculado';
+        $combo_status['DESISTENTE'] ='Desistente';
+        
+        $status->addItems($combo_status);
+        $status->setValue('AGUARDANDO CONFIRMACAO');
+        
         
         
         $data_inscricao->setValue(date('Y-m-d'));
@@ -48,6 +62,7 @@ class MatriculasForm extends TPage
         $this->form->addQuickField('Turma', $turmas_id,  400 );
         $this->form->addQuickField('Nome', $cadPessoas_id,  400 );
         $this->form->addQuickField('CPF', $cadPessoas_cpf,  180 );
+        $this->form->addQuickField('Status', $status, 200);
 
 
 
