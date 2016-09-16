@@ -35,9 +35,12 @@ class MatriculasForm extends TPage
         $id = new THidden('id');
         $data_inscricao = new THidden('data_inscricao'); 
         $turmas_id = new TDBCombo('turmas_id', 'sistemaSine', 'Turmas', 'id', 'nome_turma');
-        $cadPessoas_id = new TDBCombo('cadPessoas_id', 'sistemaSine', 'Cadpessoas', 'id', 'nome');
-        $cadPessoas_cpf = new TDBCombo('cadPessoas_cpf', 'sistemaSine', 'Cadpessoas', 'id', 'cpf');
+        //$cadPessoas_id = new TDBCombo('cadPessoas_id', 'sistemaSine', 'Cadpessoas', 'id', 'nome');
+        //$cadPessoas_cpf = new TDBCombo('cadPessoas_cpf', 'sistemaSine', 'Cadpessoas', 'id', 'cpf');
         $status = new TCombo ('status');
+        
+        $nome_id = new TDBSeekButton ('nome_id', 'sistemaSine', 'form_Matriculas', 'Cadpessoas', 'nome', 'nome_id', 'nome');
+        $nome = new TEntry ('nome');
         
         
         
@@ -60,12 +63,13 @@ class MatriculasForm extends TPage
         $this->form->addQuickField('', $id,  100 );
         $this->form->addQuickField('Data Inscricao', $data_inscricao,  100 );
         $this->form->addQuickField('Turma', $turmas_id,  400 );
-        $this->form->addQuickField('Nome', $cadPessoas_id,  400 );
-        $this->form->addQuickField('CPF', $cadPessoas_cpf,  180 );
+        $this->form->addQuickFields('Nome', array($nome_id, $nome));
+        //$this->form->addQuickField('Nome', $cadPessoas_id,  400 );
+        //$this->form->addQuickField('CPF', $cadPessoas_cpf,  180 );
         $this->form->addQuickField('Status', $status, 200);
 
 
-
+        
         
         if (!empty($id))
         {

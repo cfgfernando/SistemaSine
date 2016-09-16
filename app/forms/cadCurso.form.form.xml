@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <tnotebook id="0">
+        <class>TNotebook</class>
+        <name>notebook1</name>
+        <x>385</x>
+        <y>65</y>
+        <width>756</width>
+        <height>415</height>
+        <pages>
+            <tpanel id="1" tab="sheet1">
+                <tseekbutton id="0">
+                    <class>TSeekButton</class>
+                    <name>seekbutton2</name>
+                    <database>sistemaSine</database>
+                    <model>Turmas</model>
+                    <display>nome_turma</display>
+                    <receiver>entry2</receiver>
+                    <x>15</x>
+                    <y>30</y>
+                    <width>60</width>
+                    <editable>1</editable>
+                </tseekbutton>
+                <tentry id="1">
+                    <class>TEntry</class>
+                    <name>entry2</name>
+                    <x>110</x>
+                    <y>30</y>
+                    <value></value>
+                    <mask></mask>
+                    <width>160</width>
+                    <maxlen>0</maxlen>
+                    <editable>1</editable>
+                    <tip></tip>
+                    <required></required>
+                </tentry>
+                <tseekbutton id="2">
+                    <class>TSeekButton</class>
+                    <name>seekbutton3</name>
+                    <database>sistemaSine</database>
+                    <model>Cadpessoas</model>
+                    <display>nome</display>
+                    <receiver>entry3</receiver>
+                    <x>15</x>
+                    <y>80</y>
+                    <width>63</width>
+                    <editable>1</editable>
+                </tseekbutton>
+                <tentry id="3">
+                    <class>TEntry</class>
+                    <name>nome</name>
+                    <x>110</x>
+                    <y>80</y>
+                    <value></value>
+                    <mask></mask>
+                    <width>160</width>
+                    <maxlen>0</maxlen>
+                    <editable>1</editable>
+                    <tip></tip>
+                    <required></required>
+                </tentry>
+                <tdbcombo id="4">
+                    <class>TDBCombo</class>
+                    <name>dbcombo1</name>
+                    <database>sistemaSine</database>
+                    <model>Turmas</model>
+                    <key>id</key>
+                    <display>status</display>
+                    <x>15</x>
+                    <y>130</y>
+                    <width>187</width>
+                    <tip></tip>
+                </tdbcombo>
+                <tbutton id="5">
+                    <class>TButton</class>
+                    <name>button1</name>
+                    <x>215</x>
+                    <y>195</y>
+                    <value>Salvar</value>
+                    <icon>ico_save.png</icon>
+                    <action>onSave</action>
+                    <template>save.php</template>
+                </tbutton>
+            </tpanel>
+        </pages>
+    </tnotebook>
+</form>
