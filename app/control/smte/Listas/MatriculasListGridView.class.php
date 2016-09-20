@@ -79,7 +79,7 @@ class MatriculasListGridView extends TPage
 
         
         // create EDIT action
-        $action_edit = new TDataGridAction(array('MatriculasForm', 'onEdit'));
+        $action_edit = new TDataGridAction(array('MatriculasFormSeekButton', 'onEdit'));
         $action_edit->setUseButton(TRUE);
         $action_edit->setButtonClass('btn btn-default');
         $action_edit->setLabel(_t('Edit'));

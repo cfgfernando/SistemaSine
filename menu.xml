@@ -21,7 +21,7 @@
                     </menuitem>
                      <menuitem label='Inscrição'>
                         <icon>app/images/ico_wellcome.png</icon>
-                        <action>MatriculasForm</action>
+                        <action>MatriculasFormSeekButton</action>
                     </menuitem>
             
         </menu>

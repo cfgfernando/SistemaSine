@@ -166,7 +166,7 @@ class CadpessoasForm extends TPage
         
         // vertical box container
         $container = new TVBox;
-        $container->style = 'width: 58%';
+        $container->style = 'width: 90%';
         $container->add(new TXMLBreadCrumb('menu.xml', __CLASS__));
         $container->add($this->form);
         

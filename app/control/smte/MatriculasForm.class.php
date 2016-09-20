@@ -45,6 +45,10 @@ class MatriculasForm extends TPage
         
         
         
+        
+        
+        
+        
         //combo campo status
         $combo_status = array();
         $combo_status['AGUARDANDO CONFIRMACAO'] = 'Aguardando Confirmação';
@@ -63,7 +67,7 @@ class MatriculasForm extends TPage
         $this->form->addQuickField('', $id,  100 );
         $this->form->addQuickField('Data Inscricao', $data_inscricao,  100 );
         $this->form->addQuickField('Turma', $turmas_id,  400 );
-        $this->form->addQuickFields('Nome', array($nome_id, $nome));
+       $this->form->addQuickFields('Nome', array($nome_id, $nome));
         //$this->form->addQuickField('Nome', $cadPessoas_id,  400 );
         //$this->form->addQuickField('CPF', $cadPessoas_cpf,  180 );
         $this->form->addQuickField('Status', $status, 200);
@@ -88,7 +92,7 @@ class MatriculasForm extends TPage
         
         // vertical box container
         $container = new TVBox;
-        $container->style = 'width: 30%';
+        $container->style = 'width: 50%';
         $container->add(new TXMLBreadCrumb('menu.xml', __CLASS__));
         $container->add($this->form);
         
